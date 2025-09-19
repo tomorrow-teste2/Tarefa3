@@ -31,8 +31,21 @@ document.getElementById('btn-aluno1').addEventListener('click', () => {
     displayResult(resultado);
 });
 
-// ---------- COLE AQUI O CÓDIGO DO BOTÃO 2 ----------
+// ---------- COLE AQUI O CÓDIGO DO BOTÃO 30 ----------
+document.getElementById('btn-aluno1').addEventListener('click', () => {
+    // Defina os pesos para cada valor.
+    // Eles podem ser fixos no código ou obtidos de outros campos de input.
+    const peso1 = 2; // Exemplo: Peso para a primeira nota
+    const peso2 = 3; // Exemplo: Peso para a segunda nota
 
+    const [val1, val2] = getValues();
+    if (val1 === null) return; // Interrompe se os valores forem inválidos
+
+    // Cálculo da média ponderada: (valor1 * peso1 + valor2 * peso2) / (soma dos pesos)
+    const resultado = (val1 * peso1 + val2 * peso2) / (peso1 + peso2);
+
+    displayResult(resultado);
+});
 
 // ---------- COLE AQUI O CÓDIGO DO BOTÃO 3 ----------
 
