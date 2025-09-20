@@ -49,5 +49,5 @@ document.getElementById('btn-aluno1').addEventListener('click', () => {
 
 // ---------- COLE AQUI O CÓDIGO DO BOTÃO 3 ----------
 
-
+teste
 // etc...
