@@ -47,8 +47,8 @@ document.getElementById('btn-aluno1').addEventListener('click', () => {
     displayResult(resultado);
 });
 
-// ---------- COLE AQUI O CÓDIGO DO BOTÃO 3 ----------
+// ---------- COLE AQUI O CÓDIGO DO BOTÃO 24 ----------
 
-MINHA ALTERAÇÃO
+COLAR AQUI O CÓDIGO DA IA
 
 // etc...
